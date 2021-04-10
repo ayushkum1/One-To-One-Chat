@@ -1,0 +1,27 @@
+package com.app.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+import com.app.pojos.ChatMessage;
+import com.app.pojos.MessageStatus;
+
+public interface ChatMessageRepository extends JpaRepository<ChatMessage, Long>{
+
+	//count the number of messages between those 2 users
+	long countBySenderIdAndRecipientIdAndStatus(String senderId, String recipientId, MessageStatus status);
+	
+	//retrieve all the messages based on chatId
+	List<ChatMessage> findByChatId(String chatId);
+	
+	@Modifying
+	@Query("update ChatMessage c set c.status=:status where c.recipientId=:senderId and c.senderId=:recipientId")
+	void updateStatus(@Param(value = "status") MessageStatus status, @Param(value = "senderId") String senderId, 
+			@Param(value = "recipientId") String recipientId);
+	
+	List<ChatMessage> findAll();
+}

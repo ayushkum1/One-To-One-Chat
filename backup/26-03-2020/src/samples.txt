@@ -1,0 +1,148 @@
+
+// const mock = [
+//   {
+//     name: "Channappa Mirgale",
+//     photo:
+//       "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+//   },
+//   {
+//     name: "Suyash Amb",
+//     photo:
+//       "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+//   },
+//   {
+//     name: "Priyanka Singh",
+//     photo:
+//       "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+//   },
+//   {
+//     name: "Vikrant Singh",
+//     photo:
+//       "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+//   },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+  // {
+  //   name: "Vikrant Singh",
+  //   photo:
+  //     "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
+  // },
+// ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* duplicacy starts from here */}
+          <List>
+            <ListItem className={classes.messageRecieved}>
+              <ListItemAvatar>
+                <Avatar src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" />
+              </ListItemAvatar>
+              <ListItemText primary="hello ayush" secondary="March 19, 2021" />
+            </ListItem>
+
+            <ListItem className={classes.messageSent}>
+              <ListItemText primary="hello suyash" secondary="March 19, 2021" />
+            </ListItem>
+          </List>
+          <List>
+            <ListItem className={classes.messageRecieved}>
+              <ListItemAvatar>
+                <Avatar src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" />
+              </ListItemAvatar>
+              <ListItemText primary="hello ayush" secondary="March 19, 2021" />
+            </ListItem>
+
+            <ListItem className={classes.messageSent}>
+              <ListItemText primary="hello suyash" secondary="March 19, 2021" />
+            </ListItem>
+          </List>
+          <List>
+            <ListItem className={classes.messageRecieved}>
+              <ListItemAvatar>
+                <Avatar src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" />
+              </ListItemAvatar>
+              <ListItemText primary="hello ayush" secondary="March 19, 2021" />
+            </ListItem>
+
+            <ListItem className={classes.messageSent}>
+              <ListItemText primary="hello suyash" secondary="March 19, 2021" />
+            </ListItem>
+          </List>
+
+
+
+
+
+
+
+
+
+          +----+--------------+---------------------------------+--------------+----------------+-----------+--------------+-----------+------------+
+| id | chat_id      | content                         | recipient_id | recipient_name | sender_id | sender_name  | status    | timestamp  |
++----+--------------+---------------------------------+--------------+----------------+-----------+--------------+-----------+------------+
+|  1 | ayush_suyash | hi suyash                       | suyash       | suyashsudhir   | ayush     | ayushkumar   | DELIVERED | 2021-03-18 |
+|  2 | ayush_suyash | hi ayush                        | ayush        | ayushkumar     | suyash    | suyashsudhir | DELIVERED | 2021-03-18 |
+|  3 | ayush_suyash | how are you doing               | ayush        | ayushkumar     | suyash    | suyashsudhir | DELIVERED | 2021-03-18 |
+|  4 | ayush_suyash | I am doing great, how about you | suyash       | suyashsudhir   | ayush     | ayushkumar   | DELIVERED | 2021-03-18 |
+|  5 | ayush_piku   | hello ayush                     | ayush        | ayush          | piku      | priyanka     | DELIVERED | 2021-03-18 |
+|  6 | ayush_piku   | hello piku                      | piku         | priyanka       | ayush     | ayush        | DELIVERED | 2021-03-18 |
+|  7 | ayush_piku   | how are you doing               | piku         | priyanka       | ayush     | ayush        | DELIVERED | 2021-03-19 |
+|  8 | ayush_anant  | hi anant                        | anant        | anant          | ayush     | ayush        | DELIVERED | 2021-03-19 |
+|  9 | ayush_dishu  | hi ayush                        | ayush        | ayush          | dishu     | dishu        | RECIEVED  | 2021-03-19 |
++----+--------------+---------------------------------+--------------+----------------+-----------+--------------+-----------+------------+
+
+{
+    "id": 3,
+    "senderId": "ayush",
+    "recipientId": "suyash",
+    "senderName": "ayush",
+    "recipientName": "suyash",
+    "content": "I am doing good",
+    "timestamp": "2021-03-19",
+    "status": "RECIEVED"
+}
